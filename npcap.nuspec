@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>npcap</id>
+    <version>0.96</version>
+    <packageSourceUrl>https://github.com/robmoss2k/npcap</packageSourceUrl>
+    <owners>chocolatey-community,robmoss2k</owners>
+    <title>npcap</title>
+    <authors>hsluoyz,bonsaiviking,fyodor,gbloice,Mister-X-,Komosa,gsuberland,desowin,dmiller-nmap,thesourcerer,techtonik</authors>
+    <projectUrl>https://github.com/nmap/npcap</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/hsluoyz/npcap-icons/master/sitelogo.png</iconUrl>
+    <copyright>2021 Insecure.Com LLC</copyright>
+    <licenseUrl>https://github.com/nmap/npcap/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/nmap/npcap</projectSourceUrl>
+    <docsUrl>https://nmap.org/npcap/guide/</docsUrl>
+    <tags>npcap packet capture</tags>
+    <summary>Nmap Project's packet sniffing library for Windows</summary>
+    <description>Npcap is an architecture for packet capture and network analysis for Windows operating systems, consisting of a software library and a network driver.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
