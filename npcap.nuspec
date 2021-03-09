@@ -5,18 +5,29 @@
     <version>0.96</version>
     <packageSourceUrl>https://github.com/robmoss2k/npcap</packageSourceUrl>
     <owners>chocolatey-community,robmoss2k</owners>
-    <title>npcap</title>
-    <authors>hsluoyz,bonsaiviking,fyodor,gbloice,Mister-X-,Komosa,gsuberland,desowin,dmiller-nmap,thesourcerer,techtonik</authors>
-    <projectUrl>https://github.com/nmap/npcap</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/hsluoyz/npcap-icons/master/sitelogo.png</iconUrl>
+    <title>Npcap</title>
+    <authors>Nmap</authors>
+    <projectUrl>http://www.npcap.org</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/hsluoyz/npcap-icons/master/sitelogo.png</iconUrl>
     <copyright>2021 Insecure.Com LLC</copyright>
     <licenseUrl>https://github.com/nmap/npcap/blob/master/LICENSE</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/nmap/npcap</projectSourceUrl>
-    <docsUrl>https://nmap.org/npcap/guide/</docsUrl>
-    <tags>npcap packet capture</tags>
-    <summary>Nmap Project's packet sniffing library for Windows</summary>
-    <description>Npcap is an architecture for packet capture and network analysis for Windows operating systems, consisting of a software library and a network driver.</description>
+    <docsUrl>https://htmlpreview.github.io/?https://github.com/nmap/npcap/blob/master/docs/npcap-guide-wrapper.html</docsUrl>
+    <tags>driver packetcapture network admin</tags>
+    <summary>Nmap Project's packet sniffing library for Windows, based on WinPcap/Libpcap improved with NDIS 6 and LWF</summary>
+    <description>#Npcap
+
+Nmap Project's packet sniffing library for Windows, based on WinPcap/Libpcap improved with NDIS 6 and LWF.
+
+## Package Details
+Npcap is an update of WinPcap to NDIS 6 Light-Weight Filter (LWF) technique. It supports Windows Vista, 7, 8 and 10. It is sponsored by the Nmap Project and developed by Yang Luo under Google Summer of Code 2013 and 2015. It also received many helpful tests from Wireshark and NetScanTools.
+
+## Install Parameters
+The options are described here: https://rawgit.com/nmap/npcap/master/docs/npcap-guide-wrapper.html#npcap-redistribution-options</description>
+    <mailingListUrl>https://nmap.org/mailman/listinfo/dev</mailingListUrl>
+    <bugTrackerUrl>https://github.com/nmap/nmap/issues/</bugTrackerUrl>
+    <releaseNotes>https://github.com/nmap/npcap/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
